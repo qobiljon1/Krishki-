@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 704px;
+    background: url(./orqa\ rasm.jpg);
+    padding: 292px 0 0 406px;
+    box-sizing: border-box;
+}
+header h2{
+    font-size: 50px;
+    font-weight: 400;
+    color: #70869d;
+    font-family: "Roboto-Light";
+}
+header h1{
+    font-size: 70px;
+    font-weight: 700;
+    color: #404040;
+    font-family: "Roboto";
+}
+/* header end */
+/* section */
+section{
+    width: 1116px;
+    margin: 102px auto 0;
+}
+.top{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+.tepa {
+    width: 1116px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+.past{
+    width: 1116px;
+    display: flex;
+    justify-content: space-around; 
+}
+.box{
+    display: flex;
+    justify-content: space-around;
+    width: 534px;
+}
+.dis{
+    margin-left: 37px;
+    padding-top: 23px;
+    box-sizing: border-box;
+}
+.box h2{
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Roboto';
+    color: #1f3750;
+}
+
+.box p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #70869d;
+    font-family: 'Roboto-Light';
+}
+.box button{
+    width: 161px;
+    height: 40px;
+    padding: 11 auto;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-weight: 400;
+    /* font-family: "Roboto"; */
+    color: #70869d;
+    border: none;
+    background: #f2f2f2;
+    transition: 500ms;
+    cursor: pointer;
+}
+.box button:hover{
+    color: #ffffff;
+    background: #0092b6;
+}
+/* top end */
+/* bottom */
+.bottom{
+    background: #f3f9ff;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 50px 27px;
+    margin-bottom: 50px;
+}
+.btm-box{
+    width: 202px;
+}
+.btm-box h2{
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "Roboto";
+    color: #1f3750;
+    margin: 0 auto 32px ;
+    text-align: center;
+}
+
+.btm-box p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Roboto";
+    color: #70869d;
+    line-height: 26px;
+    margin: 26px 0 30px 0;
+}
+.btm-box a{
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Roboto';
+    color: #1f3750;
+}
+
+section h2{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    color: #1f3750;
+    font-family: 'Arial';
+    margin-bottom: 51px;
+}
+.region{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.town{
+    display: flex;
+    flex-direction: column;
+}
+.town ul{
+    list-style: none;
+}
+.town a{
+   text-decoration: none;
+   font-size: 20px;
+   font-weight: 400;
+   font-family: 'Roboto';
+   color: #70869d;
+   line-height: 31px;
+   transition: 500ms;
+}
+.town a:hover{
+    color: #0092b6;
+}
+/* section end */
+/* footer */
+footer{
+    height: 100px;
+    width: 100%;
+    background: #f3f9ff;
+}
+.end{
+    width: 1116px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.tash{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Roboto';
+    color: #444444;
+    text-decoration: none;
+}
+
+.end ul{
+    width: 563px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    color: #6d6d6d;
+}
